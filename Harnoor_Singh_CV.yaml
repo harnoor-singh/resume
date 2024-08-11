@@ -10,135 +10,178 @@ cv:
     - network: GitHub
       username: harnoor-singh
   sections:
-    # welcome_to_RenderCV!:
-    #   - '[RenderCV](https://github.com/sinaatalay/rendercv) is
-    #     a LaTeX-based CV/resume framework. It allows you to create
-    #     a high-quality CV or resume as a PDF file from a YAML
-    #     file, with **full Markdown syntax support** and **complete
-    #     control over the LaTeX code**.'
-    #   - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-    # quick_guide:
-    #   - bullet: Each section title is arbitrary and each section
-    #       contains a list of entries.
-    #   - bullet: 'There are 7 unique entry types: *BulletEntry*,
-    #       *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*,
-    #       *PublicationEntry*, and *OneLineEntry*.'
-    #   - bullet: Select a section title, pick an entry type, and
-    #       start writing your section!
-    #   - bullet: '[Here](https://docs.rendercv.com/user_guide/),
-    #       you can find a comprehensive user guide for RenderCV.'
     education:
-      - institution: University of Pennsylvania
-        area: Computer Science
-        degree: BS
-        start_date: 2000-09
-        end_date: 2005-05
+      - institution: Memorial University of Newfoundland
+        area: Computer Engineering (Co-op)
+        degree: B.Eng
+        location: St. John's, NL
+        start_date: 2021-09
+        end_date: 2026-04
         highlights:
-          - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-          - '**Coursework:** Computer Architecture, Comparison
-            of Learning Algorithms, Computational Theory'
+          # - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
+          - 'Current average: 87.7% (GPA: 3.91/4.0)'
+          - "Faculty of Engineering and Applied Science **Dean's List** 
+            (2021-22), (2022-23), (2023-24)"
+          - "IUGS Entrance Scholarship 2021-22, 
+            Chevron Canada Ltd. Endowed Scholarship 2022-23, 
+            Verafin Inc. Computer Engineering Scholarship 2022-23, 
+            SPECEF Orennia Corporate Sponsored Scholarship 2024"
+          # - "IUGS Entrance Scholarship 2021-22 (12,000), 
+          #   Chevron Canada Ltd. Endowed Scholarship 2022-23 (4756), 
+          #   Verafin Inc. Computer Engineering Scholarship 2022-23 (3000), 
+          #   Orennia Corporate Sponsored Scholarship 2024 (5000)"
     experience:
-      - company: Apple
-        position: Software Engineer
-        location: Cupertino, CA
-        start_date: 2005-06
-        end_date: 2007-08
+      - company: SimplyAnalytics
+        position: ETL Developer (Part-time) 
+        location: Remote
+        start_date: 2022-04
+        end_date: present
         highlights:
-          - Reduced time to render user buddy lists by 75% by
-            implementing a prediction algorithm
-          - Integrated iChat with Spotlight Search by creating
-            a tool to extract metadata from saved chat transcripts
-            and provide metadata to a system-wide search database
-          - Redesigned chat file format and implemented backward
-            compatibility for search
-      - company: Microsoft
-        position: Software Engineer Intern
-        location: Redmond, WA
-        start_date: 2003-06
-        end_date: 2003-08
+          - Responsible for upkeep of data pipeline code for datasets (over 100 GB each) associated with three vendors
+          - Maintaining existing pipeline code through any data schema changes, writing code for new pipelines and internal tooling
+      - company: Nasdaq (Verafin | Cloud Infrastructure Ops Team)
+        position: Software Developer Intern 
+        location: St. John's, NL
+        start_date: 2024-04
+        end_date: 2024-08
         highlights:
-          - Designed a UI for the VS open file switcher (Ctrl-Tab)
-            and extended it to tool windows
-          - Created a service to provide gradient across VS and
-            VS add-ins, optimizing its performance via caching
-          - Built an app to compute the similarity of all methods
-            in a codebase, reducing the time from $\mathcal{O}(n^2)$
-            to $\mathcal{O}(n \log n)$
-          - Created a test case generation tool that creates random
-            XML docs from XML Schema
-          - Automated the extraction and processing of large datasets
-            from legacy systems using SQL and Perl scripts
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        date: 2004-01
-    projects:
-      - name: Multi-User Drawing Tool
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+          - Used Terraform architect a solution to store logs from Amazon Workspaces to S3 buckets and made it queryable
+          - Handled a variety of inter-company infrastructure requests (SQL cases, infrastructure provisioning, etc)
+      - company: ExxonMobil
+        position: Hebron Asset Engineering Co-op 
+        location: St. John's, NL
+        start_date: 2023-09
+        end_date: 2023-12
         highlights:
-          - Developed an electronic classroom where multiple users
-            can simultaneously view and draw on a "chalkboard"
-            with each person's edits synchronized
-          - 'Tools Used: C++, MFC'
-      - name: Synchronized Desktop Calendar
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+          - Developed proof-of-concept transformer-based models to predict slugging in Hebron Wells
+          - Created parsers in Python to extract data from Word files to automate report generation
+          - Developed proof-of-concept data pipelines on Azure to deploy ML models 
+            for the local branch of the company, also enabling data-sharing partnerships with 
+            external companies/universities
+      - company: ExxonMobil
+        position: Development Engineering Co-op 
+        location: St. John's, NL
+        start_date: 2023-01
+        end_date: 2023-04
         highlights:
-          - Developed a desktop calendar with globally shared
-            and synchronized calendars, allowing users to schedule
-            meetings with other users
-          - 'Tools Used: C#, .NET, SQL, XML'
-      - name: Custom Operating System
-        date: 2002
+          - Developed proof-of-concept CNN and LSTM models for predictive maintenance of injector wells, 
+            flagging deviations 2 to 4 weeks in advance compared to existing methods
+          - Wrote Python Scripts to automate repetitive tasks for reservoir engineers, saving 4 weeks of FTE time/year
+          # - Implemented MS Power Apps & databases for various departments to digitize & automate manual workflows
+          - Analyzed datasets with more than 20 million rows and 100 columns using Python and SQL to drive insights 
+            # , mainly highlighting efficiencies (worth millions of dollars)
+      - company: Department of Process Engineering, MUN 
+        position: Software Developer & Drilling Data Analyst Co-op  
+        location: St. John's, NL
+        start_date: 2022-05
+        end_date: 2022-08
         highlights:
-          - Built a UNIX-style OS with a scheduler, file system,
-            text editor, and calculator
-          - 'Tools Used: C'
+          - Trained CNN models and used AI/CV techniques to automate drill bit damage detection
+          - Devised innovative novel algorithms to automate drill bit forensics as part of a research project 
+          - Co-authored a **research paper** ([SPE-212503-MS](https://doi.org/10.2118/212503-MS)) with major contribution to both writing and research
+          - Developed an MVP for ExxonMobil related to drill bit damage detection and forensics
+    # publications:
+    #   - title: 3D Finite Element Analysis of No-Insulation Coils
+    #     authors:
+    #       - Frodo Baggins
+    #       - '***John Doe***'
+    #       - Samwise Gamgee
+    #     doi: 10.1109/TASC.2023.3340648
+    #     date: 2004-01
+    # projects:
+    #   - name: Multi-User Drawing Tool
+    #     date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+    #     highlights:
+    #       - Developed an electronic classroom where multiple users
+    #         can simultaneously view and draw on a "chalkboard"
+    #         with each person's edits synchronized
+    #       - 'Tools Used: C++, MFC'
+    #   - name: Synchronized Desktop Calendar
+    #     date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+    #     highlights:
+    #       - Developed a desktop calendar with globally shared
+    #         and synchronized calendars, allowing users to schedule
+    #         meetings with other users
+    #       - 'Tools Used: C#, .NET, SQL, XML'
+    #   - name: Custom Operating System
+    #     date: 2002
+    #     highlights:
+    #       - Built a UNIX-style OS with a scheduler, file system,
+    #         text editor, and calculator
+    #       - 'Tools Used: C'
+
+    extracurriculars:
+      - label: Engineering Society
+        details: "*Director of Co-op* for MUN Engineering Society A (Class of 2026)"
+      - label: Conferences
+        details: "*Presented* at IEEE NECEC 2022 and Energy NL Conference 2023, participated in CELC 2024"
+      - label: Hackathons
+        details: "*Winning team member* of CPA NL Data Analytics Hackathon 2023"
+      - label: Engineering Student Teams
+        details: "*Software member and ML lead* for [Paradigm](https://munparadigm.com/) and [IcebergASV](https://www.icebergasv.ca/)"
+
+    # extracurriculars:
+    #   - bullet: "**Director of Co-op** for MUN Engineering Society A (Class of 2026)"
+    #   - bullet: "**Co-presented** at IEEE NECEC 2022 and Energy NL Conference 2023, participated in CELC 2024"
+    #   - bullet: "**Winning team member** of CPA NL Data Analytics Hackathon 2023"
+    #   - bullet: "**Software member and ML lead** for Paradigm and IcebergASV"
+
     technologies:
       - label: Languages
-        details: C++, C, Java, Objective-C, C#, SQL, JavaScript
-      - label: Technologies
-        details: .NET, Microsoft SQL Server, XCode, Interface
-          Builder
+        details: Python, C, C++, C#, HTML, CSS, JS, SQL, PHP, R, Java, VHDL, Assembly
+      - label: Libraries
+        details: NumPy, Pandas, Matplotlib, SciPy, Dask, Tensorflow, PyTorch, Keras, Scikit-learn
+      - label: Frameworks/Platforms
+        details: Django, Flask, Node.js, Svelte, React.js, ROS, Databricks, Power BI, Tableau
+      - label: Developer Tools
+        details: Git, Bash/Zsh, Docker, Vim, GitHub Actions, Dagster, Azure, AWS, GCP, Terraform, Chef
+      - label: Other
+        details: MS Office Suite and Power Apps, Linux OS installations and troubleshooting, WHIMS, CAD 
+
+    projects:
+      - label: "[dino](https://github.com/harnoor-singh/ENGI1020-Final-Project)"
+        details: A clone of chrome's Dino game, implemented on Arduino's LCD screen
+      - label: "[commerce](https://github.com/harnoor-singh/commerce)"
+        details: An eBay clone, with most functionality done
+      - label: "[wiki](https://github.com/harnoor-singh/wiki)"
+        details: A Wikipedia clone, made to learn basics of backend development
 design:
   theme: sb2nov
   # font: Source Sans 3
-  font: Latin Modern Serif
+  # font: Latin Modern Serif
+  font: Latin Modern Sans Serif
   font_size: 10pt
   page_size: letterpaper
   color: '#004f90'
   disable_external_link_icons: false
-  disable_page_numbering: false
+  disable_page_numbering: true
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
+  disable_last_updated_date: true
   last_updated_date_style: Last updated in TODAY
-  header_font_size: 30 pt
+  header_font_size: 20 pt
   text_alignment: justified
   seperator_between_connections: ''
   use_icons_for_connections: true
   margins:
     page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
+      top: 0.7 cm
+      bottom: 0.7 cm
+      left: 1.2 cm
+      right: 1.2 cm
     section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
+      top: 0.2 cm
+      bottom: 0.1 cm
     entry_area:
       left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
+      vertical_between: 0.1 cm
       date_and_location_width: 4.5 cm
       # education_degree_width: 1 cm
     highlights_area:
       top: 0.10 cm
       left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
+      vertical_between_bullet_points: 0.05 cm
     header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
+      vertical_between_name_and_connections: 0.1 cm
+      bottom: 0.2 cm
       horizontal_between_connections: 0.5 cm
   # show_timespan_in: []
