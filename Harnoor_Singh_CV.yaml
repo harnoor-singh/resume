@@ -134,7 +134,7 @@ cv:
       - label: Frameworks/Platforms
         details: Django, Flask, Node.js, Svelte, React.js, ROS, Databricks, Power BI, Tableau
       - label: Developer Tools
-        details: Git, Bash/Zsh, Docker, Vim, GitHub Actions, Dagster, Azure, AWS, GCP, Terraform, Chef
+        details: Git, Shell Script, Docker, Vim, GitHub Actions, Dagster, Azure, AWS, GCP, Terraform, Chef, MLflow
       - label: Other
         details: MS Office Suite and Power Apps, Linux OS installations and troubleshooting, WHIMS, CAD 
 
