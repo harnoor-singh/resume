@@ -11,7 +11,7 @@ cv:
       username: harnoor-singh
   sections:
     education:
-      - institution: Memorial University of Newfoundland
+      - institution: Memorial University of Newfoundland (MUN)
         area: Computer Engineering (Co-op)
         degree: B.Eng
         location: St. John's, NL
@@ -42,11 +42,11 @@ cv:
       - company: Nasdaq (Verafin | Cloud Infrastructure Ops Team)
         position: Software Developer Intern 
         location: St. John's, NL
-        start_date: 2024-04
+        start_date: 2024-05
         end_date: 2024-08
         highlights:
-          - Used Terraform architect a solution to store logs from Amazon Workspaces to S3 buckets and made it queryable
-          - Handled a variety of inter-company infrastructure requests (SQL cases, infrastructure provisioning, etc)
+          - Used Terraform to architect a solution to store logs from Amazon Workspaces to S3 buckets and made it queryable
+          - Handled a variety of intra-company infrastructure requests (SQL cases, infrastructure provisioning, etc.)
       - company: ExxonMobil
         position: Hebron Asset Engineering Co-op 
         location: St. John's, NL
@@ -76,7 +76,7 @@ cv:
         start_date: 2022-05
         end_date: 2022-08
         highlights:
-          - Trained CNN models and used AI/CV techniques to automate drill bit damage detection
+          - Trained CNN models and used other AI/CV techniques to automate drill bit damage detection
           - Devised innovative novel algorithms to automate drill bit forensics as part of a research project 
           - Co-authored a **research paper** ([SPE-212503-MS](https://doi.org/10.2118/212503-MS)) with major contribution to both writing and research
           - Developed an MVP for ExxonMobil related to drill bit damage detection and forensics
