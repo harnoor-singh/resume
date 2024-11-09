@@ -25,7 +25,8 @@ cv:
           - "IUGS Entrance Scholarship 2021-22, 
             Chevron Canada Ltd. Endowed Scholarship 2022-23, 
             Verafin Inc. Computer Engineering Scholarship 2022-23, 
-            SPECEF Orennia Corporate Sponsored Scholarship 2024"
+            SPECEF Orennia Corporate Sponsored Scholarship 2024,
+            Gary Bradshaw Award 2024-25"
           # - "IUGS Entrance Scholarship 2021-22 (12,000), 
           #   Chevron Canada Ltd. Endowed Scholarship 2022-23 (4756), 
           #   Verafin Inc. Computer Engineering Scholarship 2022-23 (3000), 
@@ -116,7 +117,9 @@ cv:
       - label: Conferences
         details: "*Presented* at IEEE NECEC 2022 and Energy NL Conference 2023, participated in CELC 2024"
       - label: Hackathons
-        details: "*Winning team member* of CPA NL Data Analytics Hackathon 2023"
+        details: "*Winning team member* in hackathons 
+        [CPA NL Data Analytics 2023](https://www.linkedin.com/posts/faculty-of-business-at-memorial-university-of-newfoundland_munbusiness-activity-7128720510204420096-A_sN), 
+        [Amazon Robotics 2024 @ MUN](https://www.linkedin.com/posts/faculty-of-engineering-and-applied-science-memorial-university_the-engineering-co-op-office-was-so-pleased-activity-7254550462018822144-Q6qp)"
       - label: Engineering Student Teams
         details: "*Software member and ML lead* for [Paradigm](https://munparadigm.com/) and [IcebergASV](https://www.icebergasv.ca/)"
 
