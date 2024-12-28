@@ -1,0 +1,106 @@
+cv:
+  name: Parneet Kaur
+  email: parneetk@mun.ca
+  phone: tel:+1 (709) 853-3574
+  social_networks:
+    - network: LinkedIn
+      username: kaurpari
+  location: 84A Greenspond Dr, St. John's, NL
+
+  sections:
+    education:
+      - institution: Memorial University of Newfoundland (MUN)
+        location: St. John's, NL
+        degree: Bachelor of Commerce (Co-op) 
+        area: Accounting 
+        start_date: 2023-01
+        end_date: 2028-04
+        highlights:
+          - "Current Average: 87.7% (GPA: 3.81/4.0)"
+          - "Major: Accounting & Finance, Minor: Mathematics"
+          - Awarded with CPA Education Foundation - Entrance to Business Post-Secondary Degree Program - Scholarship (2023)
+    experience:
+      - company: Best Western Plus
+        position: Front Desk Associate/Night Auditor
+        location: St. John's, NL
+        start_date: 2023-06
+        end_date: present
+        highlights:
+          - Managing room bookings of guests and corporate partners
+          - Accurately porting payments on guest folios & reviewed daily financial statements
+          - Providing excellent customer service at all times
+          - Completed end-of-shift paperwork with 100% accuracy
+      - company: Math Help Centre, MUN
+        position: Marketing Lead
+        location: St. John's, NL
+        start_date: 2024-09
+        end_date: 2024-12
+        highlights:
+          - Helping in the marketing of Math Help Centre
+          - Using various social media channels, crearing content and designing graphics for posters & animated posts
+      - company: Mxpert
+        position: Marketing Intern
+        location: St. John's, NL
+        start_date: 2023-02
+        end_date: 2023-03
+        highlights:
+          - Conducting market research by gathering & analyzing data on customers
+          - Creating content for marketing materials such as blog posts, social media posts, or promotional videos
+          - Helping with the rebranding of the company by coming up with creative & innovative ideas
+      - company: Modern Glass
+        position: Bookkeeper
+        location: Jalandhar, India
+        start_date: 2021-03
+        end_date: 2022-07
+        highlights:
+          - Handled day-to-day accounting processes to drive financial accuracy
+          - Developed monthly, quarterly & annual Profit & Loss Statements & Balance Sheets
+          - Reconciled accounts, managed audits & updated financial records on Excel with remarkable accuracy
+    skills:
+      - '**Hard skills:** Marketing, MS Office Suite, GSuite, Math, Accounting, Data Analysis, InkScape, Canva'
+      - '**Soft skills:** Teamwork, Leadership, Problem Solving, Critical Thinking, Administration, Time Management, Communication, Customer Service'
+    certifications:
+      - Fundamentals of Digital Marketing (Course offered by Google)
+      - Intoduction to Social Media Marketing (Course offered by Coursera in partnership with Meta)
+      - Social Media Management (Course offered by Coursera in partnership with Meta)
+      - Fundamentals of Social Media Advertising (Course offered by Coursera in partnership with Meta)
+      - Advertising with Meta (Course offered by Coursera in partnership with Meta)
+      - Measure & Optimize Social Media Marketing Campaigns (Course offered by Coursera in partnership with Meta)
+design:
+  theme: sb2nov
+  font: Latin Modern Sans Serif
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: true
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: true
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      # education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  # show_timespan_in: []
