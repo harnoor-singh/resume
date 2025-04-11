@@ -1,0 +1,2 @@
+Fonts available:
+Libertinus Serif, New Computer Modern, DejaVu Sans Mono, Mukta, Raleway, Poppins, Source Sans 3, Open Sans, Roboto, EB Garamond, Open Sauce Sans, Fontin, Lato, Gentium Book Plus, Ubuntu, XCharter, Noto Sans.
