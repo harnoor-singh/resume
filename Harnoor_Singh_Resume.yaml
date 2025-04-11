@@ -1,6 +1,6 @@
 cv:
   name: Harnoor Singh
-  # location: St. John's, NL
+  location: St. John's, NL
   email: harnoors@mun.ca
   phone: tel:+1-709-219-4176
   website: https://harnoor.dev/
@@ -12,7 +12,7 @@ cv:
   sections:
     education:
       - institution: Memorial University of Newfoundland (MUN)
-        area: Computer Engineering (Co-op)
+        area: "**Computer Engineering** (Co-op)"
         degree: B.Eng
         location: St. John's, NL
         start_date: 2021-09
@@ -22,16 +22,20 @@ cv:
           - 'Current average: 87.7% (GPA: 3.93/4.0)'
           - "Faculty of Engineering and Applied Science **Dean's List** 
             (2021-22), (2022-23), (2023-24)"
-          - "IUGS Entrance Scholarship 2021-22, 
-            Chevron Canada Ltd. Endowed Scholarship 2022-23, 
-            Verafin Inc. Computer Engineering Scholarship 2022-23, 
-            SPECEF Orennia Corporate Sponsored Scholarship 2024,
-            Gary Bradshaw Award 2024-25"
-          # - "IUGS Entrance Scholarship 2021-22 (12,000), 
-          #   Chevron Canada Ltd. Endowed Scholarship 2022-23 (4756), 
-          #   Verafin Inc. Computer Engineering Scholarship 2022-23 (3000), 
-          #   Orennia Corporate Sponsored Scholarship 2024 (5000)"
+          # - "IUGS Entrance Scholarship 2021-22, 
+          #   Chevron Canada Ltd. Endowed Scholarship 2022-23, 
+          #   Verafin Inc. Computer Engineering Scholarship 2022-23, 
+          #   SPECEF Orennia Corporate Sponsored Scholarship 2024,
+          #   Gary Bradshaw Award 2024-25"
     experience:
+      - company: Memorial Centre for Entrepreneurship (MCE)
+        position: Co-Founder (AuditOS) 
+        location: St. John's, NL
+        start_date: 2025-01
+        end_date: present
+        highlights:
+          - Worked on developing a solution for small accounting firms to automate parts of external audits 
+          - Conducted customer interviews and developed a prototype of the application using React.js and Electron
       - company: SimplyAnalytics
         position: ETL Developer (Part-time) 
         location: Remote
@@ -39,8 +43,8 @@ cv:
         end_date: present
         highlights:
           - Responsible for upkeep of data pipeline code for datasets (over 100 GB each) associated with three vendors
-          - Maintaining existing pipeline code through any data schema changes, writing code for new pipelines and internal tooling
-      - company: Nasdaq (Verafin | Cloud Infrastructure Ops Team)
+          - Maintaining existing code through any data schema changes, writing code for new pipelines and internal tooling
+      - company: Nasdaq (Verafin - Cloud Infrastructure Ops Team)
         position: Software Developer Intern 
         location: St. John's, NL
         start_date: 2024-05
@@ -48,17 +52,17 @@ cv:
         highlights:
           - Used Terraform to architect a solution to store logs from Amazon Workspaces to S3 buckets and made it queryable
           - Handled a variety of intra-company infrastructure requests (SQL cases, infrastructure provisioning, etc.)
-      - company: ExxonMobil
-        position: Hebron Asset Engineering Co-op 
-        location: St. John's, NL
-        start_date: 2023-09
-        end_date: 2023-12
-        highlights:
-          - Developed proof-of-concept transformer-based models to predict slugging in Hebron Wells
-          - Created parsers in Python to extract data from Word files to automate report generation
-          - Developed proof-of-concept data pipelines on Azure to deploy ML models 
-            for the local branch of the company, also enabling data-sharing partnerships with 
-            external companies/universities
+      # - company: ExxonMobil
+      #   position: Hebron Asset Engineering Co-op 
+      #   location: St. John's, NL
+      #   start_date: 2023-09
+      #   end_date: 2023-12
+      #   highlights:
+      #     - Developed proof-of-concept transformer-based models to predict slugging in Hebron Wells
+      #     - Created parsers in Python to extract data from Word files to automate report generation
+      #     - Developed proof-of-concept data pipelines on Azure to deploy ML models 
+      #       for the local branch of the company, also enabling data-sharing partnerships with 
+      #       external companies/universities
       - company: ExxonMobil
         position: Development Engineering Co-op 
         location: St. John's, NL
@@ -71,6 +75,9 @@ cv:
           # - Implemented MS Power Apps & databases for various departments to digitize & automate manual workflows
           - Analyzed datasets with more than 20 million rows and 100 columns using Python and SQL to drive insights 
             # , mainly highlighting efficiencies (worth millions of dollars)
+          # - Developed proof-of-concept data pipelines on Azure to deploy ML models 
+          #   for the local branch of the company, also enabling data-sharing partnerships with 
+          #   external companies/universities
       - company: Department of Process Engineering, MUN 
         position: Software Developer & Drilling Data Analyst Co-op  
         location: St. John's, NL
@@ -81,53 +88,17 @@ cv:
           - Devised innovative novel algorithms to automate drill bit forensics as part of a research project 
           - Co-authored a **research paper** ([SPE-212503-MS](https://doi.org/10.2118/212503-MS)) with major contribution to both writing and research
           - Developed an MVP for ExxonMobil related to drill bit damage detection and forensics
-    # publications:
-    #   - title: 3D Finite Element Analysis of No-Insulation Coils
-    #     authors:
-    #       - Frodo Baggins
-    #       - '***John Doe***'
-    #       - Samwise Gamgee
-    #     doi: 10.1109/TASC.2023.3340648
-    #     date: 2004-01
-    # projects:
-    #   - name: Multi-User Drawing Tool
-    #     date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-    #     highlights:
-    #       - Developed an electronic classroom where multiple users
-    #         can simultaneously view and draw on a "chalkboard"
-    #         with each person's edits synchronized
-    #       - 'Tools Used: C++, MFC'
-    #   - name: Synchronized Desktop Calendar
-    #     date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-    #     highlights:
-    #       - Developed a desktop calendar with globally shared
-    #         and synchronized calendars, allowing users to schedule
-    #         meetings with other users
-    #       - 'Tools Used: C#, .NET, SQL, XML'
-    #   - name: Custom Operating System
-    #     date: 2002
-    #     highlights:
-    #       - Built a UNIX-style OS with a scheduler, file system,
-    #         text editor, and calculator
-    #       - 'Tools Used: C'
-
     extracurriculars:
       - label: Engineering Society
         details: "*Director of Co-op* for MUN Engineering Society A (Class of 2026)"
       - label: Conferences
-        details: "*Presented* at IEEE NECEC 2022 and Energy NL Conference 2023, participated in CELC 2024"
+        details: "*Presented* at IEEE NECEC 2022 and Energy NL Conference 2023, participated in CELC 2024 and CUCAI 2025"
       - label: Hackathons
         details: "*Winning team member* in hackathons 
         [CPA NL Data Analytics 2023](https://www.linkedin.com/posts/faculty-of-business-at-memorial-university-of-newfoundland_munbusiness-activity-7128720510204420096-A_sN), 
         [Amazon Robotics 2024 @ MUN](https://www.linkedin.com/posts/faculty-of-engineering-and-applied-science-memorial-university_the-engineering-co-op-office-was-so-pleased-activity-7254550462018822144-Q6qp)"
       - label: Engineering Student Teams
         details: "*Software member and ML lead* for [Paradigm](https://munparadigm.com/) and [IcebergASV](https://www.icebergasv.ca/)"
-
-    # extracurriculars:
-    #   - bullet: "**Director of Co-op** for MUN Engineering Society A (Class of 2026)"
-    #   - bullet: "**Co-presented** at IEEE NECEC 2022 and Energy NL Conference 2023, participated in CELC 2024"
-    #   - bullet: "**Winning team member** of CPA NL Data Analytics Hackathon 2023"
-    #   - bullet: "**Software member and ML lead** for Paradigm and IcebergASV"
 
     technologies:
       - label: Languages
@@ -139,7 +110,7 @@ cv:
       - label: Developer Tools
         details: Git, Shell Script, Docker, Vim, GitHub Actions, Dagster, Azure, AWS, GCP, Terraform, Chef, MLflow
       - label: Other
-        details: MS Office Suite and Power Apps, Linux OS installations and troubleshooting, WHIMS, CAD 
+        details: MS Office Suite and Power Apps, Linux OS installations and troubleshooting, WHIMS, CAD
 
     projects:
       - label: "[dino](https://github.com/harnoor-singh/ENGI1020-Final-Project)"
@@ -148,43 +119,155 @@ cv:
         details: An eBay clone, with most functionality done
       - label: "[wiki](https://github.com/harnoor-singh/wiki)"
         details: A Wikipedia clone, made to learn basics of backend development
+
 design:
   theme: sb2nov
-  # font: Source Sans 3
-  # font: Latin Modern Serif
-  font: Latin Modern Sans Serif
-  font_size: 10pt
-  page_size: letterpaper
-  color: '#004f90'
-  disable_external_link_icons: false
-  disable_page_numbering: true
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: true
-  last_updated_date_style: Last updated in TODAY
-  header_font_size: 20 pt
-  text_alignment: justified
-  seperator_between_connections: ''
-  use_icons_for_connections: true
-  margins:
-    page:
-      top: 0.7 cm
-      bottom: 0.7 cm
-      left: 1.2 cm
-      right: 1.2 cm
-    section_title:
-      top: 0.2 cm
-      bottom: 0.1 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.1 cm
-      date_and_location_width: 4.5 cm
-      # education_degree_width: 1 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.05 cm
-    header:
-      vertical_between_name_and_connections: 0.1 cm
-      bottom: 0.2 cm
-      horizontal_between_connections: 0.5 cm
-  # show_timespan_in: []
+  page:
+    size: us-letter
+    top_margin: 0.7cm
+    bottom_margin: 0.7cm
+    left_margin: 1.2cm
+    right_margin: 1.2cm
+    show_page_numbering: false
+    show_last_updated_date: false
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: Ubuntu
+    font_size: 9.8pt
+    leading: 0.6em
+    alignment: left
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: true
+  header:
+    name_font_family: Ubuntu
+    name_font_size: 24pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.5cm
+    vertical_space_between_connections_and_first_section: 0.5cm
+    horizontal_space_between_connections: 0.4cm
+    connections_font_family: Ubuntu
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: Ubuntu
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+    line_type: with-full-line
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.8em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: ◦
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: |-
+        **INSTITUTION**
+        *DEGREE in AREA*
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    experience_entry:
+      main_column_first_row_template: |-
+        **POSITION**
+        *COMPANY*
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-04-11'
+  render_command:
+  bold_keywords: []
