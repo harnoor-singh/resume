@@ -11,17 +11,34 @@ cv:
     education:
       - institution: Memorial University of Newfoundland (MUN)
         location: St. John's, NL
-        degree: Bachelor of Commerce (Co-op) 
-        area: Accounting 
+        degree: Bachelor of Commerce (Co-op)
+        area: ""
         start_date: 2023-01
         end_date: 2028-04
         highlights:
           - "Current Average: 87.3% (GPA: 3.85/4.0)"
           - "Major: Accounting & Finance, Minor: Mathematics"
-          - Director of International Representation - MUN Commerce Society
-          - President - MUN Accounting Society
-          - Awarded with CPA Education Foundation - Entrance to Business Post-Secondary Degree Program - Scholarship (2023)
+          - "Faculty of Business Administration Dean's List (2024-2025)"
+          - "Awarded with CPA Education Foundation - Entrance to Business Post-Secondary Degree Program - Scholarship (2023)"
     experience:
+      - company: The Fund
+        position: Junior Analyst
+        location: St. John's, NL
+        start_date: 2025-08
+        end_date: present
+        highlights:
+          - Performed industry research, financial modelling, and valuation analysis (discounted cash flow and relative valuations) to pitch new stock ideas
+          - Conducting data analysis to support investment decisions
+      - company: MUN Accounting Society
+        position: Co-President/Founder
+        location: St. John's, NL
+        start_date: 2025-05
+        end_date: present
+        highlights:
+          - Founded and led the society, supervising and conducting bi-weekly meetings
+          - Oversaw the process of student organization event planning and budgeting to ensure smooth operations
+          - Managed member recruitment and engagement through events and social media platforms
+          - Coordinated with faculty and external organizations (CPANL, MUNSU) to enhance member opportunities and resources
       - company: Best Western Plus
         position: Front Desk Associate/Night Auditor
         location: St. John's, NL
@@ -30,26 +47,26 @@ cv:
         highlights:
           - "Worker Co-chair : Occupational Health and Safety Committee"
           - Managing room bookings of guests and corporate partners
-          - Accurately porting payments on guest folios & reviewed daily financial statements
+          - Reviewed daily financial statements and accurately posted payments on guest folios
           - Providing excellent customer service at all times
           - Completed end-of-shift paperwork with 100% accuracy
-      - company: Math Help Centre, MUN
-        position: Marketing Lead
-        location: St. John's, NL
-        start_date: 2024-09
-        end_date: 2024-12
-        highlights:
-          - Helping in the marketing of Math Help Centre
-          - Using various social media channels, crearing content and designing graphics for posters & animated posts
-      - company: Mxpert
-        position: Marketing Intern
-        location: St. John's, NL
-        start_date: 2023-02
-        end_date: 2023-03
-        highlights:
-          - Conducting market research by gathering & analyzing data on customers
-          - Creating content for marketing materials such as blog posts, social media posts, or promotional videos
-          - Helping with the rebranding of the company by coming up with creative & innovative ideas
+      # - company: Math Help Centre, MUN
+      #   position: Marketing Lead
+      #   location: St. John's, NL
+      #   start_date: 2024-09
+      #   end_date: 2024-12
+      #   highlights:
+      #     - Helping in the marketing of Math Help Centre
+      #     - Using various social media channels, crearing content and designing graphics for posters & animated posts
+      # - company: Mxpert
+      #   position: Marketing Intern
+      #   location: St. John's, NL
+      #   start_date: 2023-02
+      #   end_date: 2023-03
+      #   highlights:
+      #     - Conducting market research by gathering & analyzing data on customers
+      #     - Creating content for marketing materials such as blog posts, social media posts, or promotional videos
+      #     - Helping with the rebranding of the company by coming up with creative & innovative ideas
       - company: Modern Glass
         position: Bookkeeper
         location: Jalandhar, India
@@ -59,11 +76,12 @@ cv:
           - Handled day-to-day accounting processes to drive financial accuracy
           - Developed monthly, quarterly & annual Profit & Loss Statements & Balance Sheets
           - Reconciled accounts, managed audits & updated financial records on Excel with remarkable accuracy
-    skills:
-      - '**Hard skills:** Marketing, MS Office Suite, GSuite, Math, Accounting, Data Analysis, InkScape, Canva'
-      - '**Soft skills:** Teamwork, Leadership, Problem Solving, Critical Thinking, Administration, Time Management, Communication, Customer Service'
+    extracurricculars:
+      - Co-President/Founder, MUN Accounting Society (2025 - Present)
+      - Director of International Representation, MUN Commerce Society (2024 - Present)
     certifications:
       - Bloomberg Market Concepts (BMC)
+      - Python for Beginners (Course offered by Scaler University)
       - OH&S Level I and II (Course offered by WorkplaceNL)
       - Fundamentals of Digital Marketing (Course offered by Google)
       - Intoduction to Social Media Marketing (Course offered by Coursera in partnership with Meta)
@@ -91,7 +109,7 @@ design:
     last_updated_date_and_page_numbering: rgb(128, 128, 128)
   text:
     font_family: Open Sans
-    font_size: 10pt
+    font_size: 9.8pt
     leading: 0.6em
     alignment: left
     date_and_location_column_alignment: right
@@ -142,7 +160,7 @@ design:
     education_entry:
       main_column_first_row_template: |-
         **INSTITUTION**
-        *DEGREE in AREA*
+        *DEGREE AREA*
       degree_column_template:
       degree_column_width: 1cm
       main_column_second_row_template: |-
