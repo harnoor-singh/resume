@@ -94,6 +94,22 @@ cv:
       #- Fundamentals of Social Media Advertising (Course offered by Coursera in partnership with Meta)
       - Advertising with Meta (Course offered by Coursera in partnership with Meta)
       - Measure & Optimize Social Media Marketing Campaigns (Course offered by Coursera in partnership with Meta)
+    references:
+      - name: William Greenfield
+        summary: Director of operations, Best Western Plus
+        highlights:
+          - "Email: william@bestwesternstjohns.com"
+          - "Phone: +1 (709) 758-5004"
+      - name: Ashley Thompson
+        summary: Assistant General Manager, Best Western Plus
+        highlights:
+          - "Email: ashley@bestwesternstjohns.com"
+          - "Phone: +1 (709) 758-5004"
+      - name: Baban Deep, CPA
+        summary: Senior Public Policy Analyst, Department of Finance, Government of Newfoundland and Labrador
+        highlights:
+          - "Email: babandeep@gov.nl.ca"
+          - "Phone: +1 (709) 740-2872"
 
 design:
   theme: sb2nov
