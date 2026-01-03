@@ -19,7 +19,7 @@ cv:
         end_date: 2026-04
         highlights:
           # - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-          - 'Current average: 87.7% (GPA: 3.92/4.0)'
+          - 'Current average: 87.5% (GPA: 3.91/4.0)'
           - "Faculty of Engineering and Applied Science **Dean's List** 
             (2021-22), (2022-23), (2023-24)"
           # - "IUGS Entrance Scholarship 2021-22, 
@@ -36,22 +36,14 @@ cv:
         highlights:
           - Started an AI competition team at MUN, mentoring students for AI model training
           - Managing admin tasks, arranging GPU compute across campus through various departments
-      - company: Nasdaq (Verafin - ML Infrastructure and Operations Team)
-        position: Software Developer Intern 
-        location: St. John's, NL
-        start_date: 2025-09
-        end_date: 2025-12
-        highlights:
-          - Implemented historical logging on AWS SageMaker endpoints in production, enabling debugging capabilities
-          - Created and deployed lambdas using Terraform to automatically remove certain obsolete infrastructure resources
       - company: SimplyAnalytics
         position: ETL Developer (Part-time) 
         location: Remote
         start_date: 2022-04
-        end_date: 2025-12
+        end_date: present
         highlights:
-          - Managed upkeep of data pipeline code for datasets (over 100 GB each) associated with three vendors
-          - Maintained existing code through any data schema changes, writing code for new pipelines and internal tooling
+          - Managing upkeep of data pipeline code for datasets (over 100 GB each) associated with three vendors
+          - Maintaining existing code through any data schema changes, writing code for new pipelines and internal tooling
       - company: Memorial Centre for Entrepreneurship (MCE)
         position: Co-Founder - AuditOS 
         location: St. John's, NL
@@ -60,14 +52,14 @@ cv:
         highlights:
           - Developed a solution for small accounting firms to automate parts of external audits 
           - Conducted 20+ customer interviews and developed a prototype of the application using React.js and Electron
-      # - company: Nasdaq (Verafin - Cloud Infrastructure Ops Team)
-      #   position: Software Developer Intern 
-      #   location: St. John's, NL
-      #   start_date: 2024-05
-      #   end_date: 2024-08
-      #   highlights:
-      #     - Used Terraform to architect a solution to store logs from Amazon Workspaces to S3 buckets and made it queryable
-      #     - Wrote code to handle intra-company infrastructure requests (SQL cases, infrastructure provisioning, etc.)
+      - company: Nasdaq (Verafin - Cloud Infrastructure Ops Team)
+        position: Software Developer Intern 
+        location: St. John's, NL
+        start_date: 2024-05
+        end_date: 2024-08
+        highlights:
+          - Used Terraform to architect a solution to store logs from Amazon Workspaces to S3 buckets and made it queryable
+          - Wrote code to handle intra-company infrastructure requests (SQL cases, infrastructure provisioning, etc.)
       # - company: ExxonMobil
       #   position: Hebron Asset Engineering Co-op 
       #   location: St. John's, NL
