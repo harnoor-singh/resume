@@ -16,11 +16,22 @@ cv:
         start_date: 2023-01
         end_date: 2028-04
         highlights:
-          - "Cummulative Average: 87.3% (GPA: 3.85/4.0)"
+          - "Cummulative Average: 87.8% (GPA: 3.88/4.0)"
           - "Major: Accounting & Finance, Minor: Mathematics"
           - "Faculty of Business Administration Dean's List (2024-2025)"
           - "Awarded with CPA Education Foundation - Entrance to Business Post-Secondary Degree Program - Scholarship (2023), Valued $2,500"
     experience:
+      - company: KPMG LLP
+        position: Audit Intern
+        location: St. John's, NL
+        start_date: 2026-01
+        end_date: "present"
+        highlights:
+          - Performed audits for across multiple industries, including mobility, construction, finance, and energy
+          - Identifying high-risk areas and computing materiality 
+          - Assessing the accuracy of financial statements under IFRS
+          - Making budgets for audit clients
+          - Visiting work sites and performing inventory audits
       - company: The Fund
         position: Junior Analyst
         location: St. John's, NL
@@ -48,7 +59,7 @@ cv:
           - "Worker Co-chair : Occupational Health and Safety Committee (Representing 110+ workers)"
           - Managing room bookings of guests and corporate partners
           - Reviewing daily financial statements and accurately posting payments on guest folios
-          - Providing excellent customer service at all times
+         ### - Providing excellent customer service at all times
           - Completing end-of-shift paperwork with 100% accuracy
       # - company: Math Help Centre, MUN
       #   position: Marketing Lead
@@ -67,16 +78,16 @@ cv:
       #   - Conducting market research by gathering & analyzing data on customers
       #   - Helping with the rebranding of the company by coming up with creative & innovative ideas
       #   - Creating content for marketing materials such as blog posts, social media posts, or promotional videos
-      - company: Modern Glass
-        position: Bookkeeper
-        location: Jalandhar, India
-        start_date: 2021-03
-        end_date: 2022-07
-        highlights:
-          - Handled day-to-day accounting processes to drive financial accuracy
-          - Developed monthly, quarterly, & annual Profit & Loss Statements & Balance Sheets
-          - Maintained accounts payable & receivable, ensuring timely payments & collections
-          - Reconciled accounts, managed audits & updated financial records on Excel with remarkable accuracy
+      # - company: Modern Glass
+      #   position: Bookkeeper
+      #   location: Jalandhar, India
+      #   start_date: 2021-03
+      #   end_date: 2022-07
+      #   highlights:
+      #     - Handled day-to-day accounting processes to drive financial accuracy
+      #     - Developed monthly, quarterly, & annual Profit & Loss Statements & Balance Sheets
+      #     - Maintained accounts payable & receivable, ensuring timely payments & collections
+      #     - Reconciled accounts, managed audits & updated financial records on Excel with remarkable accuracy
     skills:
       - "**Hard Skills:** MS Suite, GSuite, Math, Accounting, Finance, Data Analysis, Python (Basics), R (Basics), Bloomberg Terminal, Inkscape, Canva"
       - "**Soft Skills:** Leadership, Teamwork, Communication, Time Management, Problem-Solving, Critical Thinking, Administration, Customer Service"
@@ -94,22 +105,22 @@ cv:
       #- Fundamentals of Social Media Advertising (Course offered by Coursera in partnership with Meta)
       - Advertising with Meta (Course offered by Coursera in partnership with Meta)
       - Measure & Optimize Social Media Marketing Campaigns (Course offered by Coursera in partnership with Meta)
-    references:
-      - name: William Greenfield
-        summary: Director of operations, Best Western Plus
-        highlights:
-          - "Email: william@bestwesternstjohns.com"
-          - "Phone: +1 (709) 758-5004"
-      - name: Ashley Thompson
-        summary: Assistant General Manager, Best Western Plus
-        highlights:
-          - "Email: ashley@bestwesternstjohns.com"
-          - "Phone: +1 (709) 758-5004"
-      - name: Baban Deep, CPA
-        summary: Senior Public Policy Analyst, Department of Finance, Government of Newfoundland and Labrador
-        highlights:
-          - "Email: babandeep@gov.nl.ca"
-          - "Phone: +1 (709) 740-2872"
+    # references:
+    #   - name: William Greenfield
+    #     summary: Director of operations, Best Western Plus
+    #     highlights:
+    #       - "Email: william@bestwesternstjohns.com"
+    #       - "Phone: +1 (709) 758-5004"
+    #   - name: Ashley Thompson
+    #     summary: Assistant General Manager, Best Western Plus
+    #     highlights:
+    #       - "Email: ashley@bestwesternstjohns.com"
+    #       - "Phone: +1 (709) 758-5004"
+    #   - name: Baban Deep, CPA
+    #     summary: Senior Public Policy Analyst, Department of Finance, Government of Newfoundland and Labrador
+    #     highlights:
+    #       - "Email: babandeep@gov.nl.ca"
+    #       - "Phone: +1 (709) 740-2872"
 
 design:
   theme: sb2nov
